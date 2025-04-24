@@ -15,7 +15,7 @@ public class ReservaController {
 		this.service = ReservaService;
 	}
 	
-	public void ejecutar() {
+	public void ejemplo() {
 		// Se crean clientes de ejemplo con los que se trabajarán.
 		Persona per1 = new Persona("Maria", "Gomez", "123456789");
 		Persona per2 = new Persona("José", "Torres", "987654321");

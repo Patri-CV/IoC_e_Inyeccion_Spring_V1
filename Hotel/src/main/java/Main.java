@@ -8,7 +8,7 @@ public class Main {
 		
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		ReservaController controller = context.getBean(ReservaController.class);
-		controller.ejecutar();
+		controller.ejemplo();
 		context.close();
 	}
 }
